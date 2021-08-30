@@ -28,10 +28,10 @@ const LABEL_SELECTION_ROW_TEMPLATE = (() => {
   return row
 })()
 
-const getDialogRowTemplate = ({ isSystem, label }) => {
+const getDialogRowTemplate = ({ isAI, label }) => {
   const row = DIALOG_ROW_TEMPLATE.cloneNode(true)
 
-  if (!isSystem) {
+  if (!isAI) {
     row.querySelector('.avatar').remove()
     row.querySelector('.dialog-system').className = 'dialog-user'
   }
