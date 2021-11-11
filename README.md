@@ -14,7 +14,7 @@ _Submit_ 버튼을 클릭 했을 때, `onClickSubmit` 함수가 실행 됩니다
 
 예를 들면 `text` 가 'I have one more semester,\nbut it would be great to have a job lined up.' 인 사용자의 대화에 'claim' 이라는 레이블이 선택됐다면,
 
-```json
+```js
 {
   text: 'I have one more semester,\nbut it would be great to have a job lined up.',
   time: '오전 11:45:56',
